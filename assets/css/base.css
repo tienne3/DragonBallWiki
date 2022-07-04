@@ -1,0 +1,49 @@
+:root {
+    --primary: #132ff4;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.mg-0 {
+    margin: 0;
+}
+
+.mg-left-0 {
+    margin-left: 0 !important;
+}
+
+.mg-top-0 {
+    margin-top: 0 !important;
+}
+
+.mg-bot-0 {
+    margin-bottom: 0 !important;
+}
+
+html .display-block {
+    display: block !important;
+}
+
+html .display-none {
+    display: none !important;
+}
+
+html .display-flex {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+
+
