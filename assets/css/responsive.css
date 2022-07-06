@@ -1,7 +1,7 @@
 /* mobile */
 
 @media (max-width: 739px) {
-    .header__image {
+    .header__image-lists {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -9,7 +9,7 @@
     .header__logo-img {
         padding: 5px 0 21px;
     }
-    .header__image-img {
+    .header__image {
         margin: 0 0 15px;
     }
     /*  */
@@ -111,7 +111,7 @@
 
 /* tablet ++*/
 @media (min-width: 740px) and (max-width: 1250px) {
-    .header__image {
+    .header__image-lists {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -169,30 +169,3 @@
         margin: 10px 0 50px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

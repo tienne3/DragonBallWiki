@@ -240,8 +240,7 @@ handleVoteTeam = function() {
 voteTeamBtn.addEventListener('click', handleVoteTeam)
 
 
-//
-
+// xử lý input
 const input = $('.nav__search-input')
 const search = $('.nav__search-button')
 
@@ -249,14 +248,5 @@ search.onclick = function() {
     const htmls = input.value
     input.value=''
     input.focus()
-
- 
     document.querySelector('.result').innerHTML = `Không tìm thấy: <strong>${htmls}</strong> trong tài liệu nào.`
-
 }
-
-
-
-
-
-
